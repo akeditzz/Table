@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/llContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/llSinkingFund"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dimen_30dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvSinkingFund"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/dimen_8dp"
+                    android:paddingEnd="@dimen/dimen_8dp"
+                    android:text="Areas"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/textSize_12sp" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:background="@color/lightgray4" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvMonthly"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dimen_30dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:paddingStart="@dimen/dimen_8dp"
+                android:paddingEnd="@dimen/dimen_8dp"
+                android:text="Areas"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textSize_12sp" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightgray4" />
+
+            <TextView
+                android:id="@+id/tvQuarterly"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dimen_30dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:paddingStart="@dimen/dimen_8dp"
+                android:paddingEnd="@dimen/dimen_8dp"
+                android:text="Areas"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textSize_12sp" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightgray4" />
+
+            <TextView
+                android:id="@+id/tvBiannually"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dimen_30dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:paddingStart="@dimen/dimen_8dp"
+                android:paddingEnd="@dimen/dimen_8dp"
+                android:text="Areas"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textSize_12sp" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/lightgray4" />
+
+            <TextView
+                android:id="@+id/tvAnnually"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dimen_30dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:paddingStart="@dimen/dimen_8dp"
+                android:paddingEnd="@dimen/dimen_8dp"
+                android:text="Areas"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textSize_12sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/viewBottomLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/llContainer"
+            android:background="@color/lightgray4" />
+
+    </RelativeLayout>
+</layout>
